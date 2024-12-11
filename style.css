@@ -12,7 +12,7 @@ body {
 }
 
 header {
-    background: #333;
+    background: rgb(211, 96, 14);
     color: #fff;
     padding: 10px 0;
     text-align: center;
@@ -45,7 +45,7 @@ h1{
 }
 
 footer {
-    background: #333;
+    background: #5a5a5a;
     color: #fff;
     padding: 8px;
     text-align: center;
@@ -67,7 +67,7 @@ footer {
 }
 
 .o-mnie-item {
-    background: #ddd;
+    background: #e6cf85;
     padding: 15px;
     border-radius: 15px;
     text-align: center;
@@ -85,7 +85,7 @@ footer {
 }
 
 .projekt-item {
-    background: #ddd;
+    background: #e6cf85;
     padding: 25px;
     border-radius: 15px;
     text-align: center;
