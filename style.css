@@ -40,16 +40,54 @@ main {
     padding: 20px;
 }
 
+h1{
+    padding: 5px;
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    padding: 8px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 98%; 
+}
+
+#o-mnie {
+    padding-top: 15px;
+    padding-bottom: 69px;
+}
+
+.o-mnie-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+
+.o-mnie-item {
+    background: #ddd;
+    padding: 15px;
+    border-radius: 15px;
+    text-align: center;
+}
+
+#projekty {
+    padding-bottom: 15px;
+}
+
 .projekty-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     gap: 20px;
+    padding: 20px;
 }
 
-.projekty-grid > div {
+.projekt-item {
     background: #ddd;
-    padding: 20px;
-    border-radius: 8px;
+    padding: 25px;
+    border-radius: 15px;
     text-align: center;
 }
 
